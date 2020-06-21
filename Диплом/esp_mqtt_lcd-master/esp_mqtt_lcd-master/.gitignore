@@ -1,0 +1,38 @@
+# you can put your own user_config.h and mqtt_config.h here and git will not bother you about it
+localinclude/user_config.h
+localinclude/mqtt_config.h
+
+.project
+.cproject
+.settings
+firmware
+build
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
